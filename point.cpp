@@ -16,7 +16,7 @@ Point::Point(const Point &other)
 :x(other.x), y(other.y){};
 
 
-bool Point::equals( Point &other){
+bool Point::equals(const Point &other){
     return other.x == x && other.y==y;
 }
 void Point::flip(){

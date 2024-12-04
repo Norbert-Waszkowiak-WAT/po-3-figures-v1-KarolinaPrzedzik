@@ -9,7 +9,7 @@ class Point{
     Point(double x, double y);
     Point(const Point &other);
 
-    bool equals(Point &other);
+    bool equals(const Point &other);
     double getX();
     double getY();
     void flip();
